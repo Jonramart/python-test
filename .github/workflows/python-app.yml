@@ -42,4 +42,4 @@ jobs:
       uses: docker/build-push-action@v7
       with:
         push: true
-        tags: jonramart/python-test:latest
+        tags: ghcr.io/jonramart/python-test:latest
