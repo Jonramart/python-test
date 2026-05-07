@@ -1,4 +1,4 @@
-def largo(texto):
+def Largo(texto):
     resultado = 0
     for _ in texto:
         resultado += 1
@@ -6,5 +6,5 @@ def largo(texto):
 
 
 print("test")
-l = largo("Hola Mundo")
-print(l)
+L = Largo("Hola Mundo")
+print(L)
