@@ -1,0 +1,14 @@
+{
+    "name": "Python Docker Dev",
+    "build": { "dockerfile": "../Dockerfile" },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "njpwerner.autodocstring"
+            ]
+        }
+    },
+    "remoteUser": "root"
+}
